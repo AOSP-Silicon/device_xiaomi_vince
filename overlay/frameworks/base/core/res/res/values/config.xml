@@ -643,7 +643,7 @@
     <bool name="config_enableBurnInProtection">false</bool>
 
     <!-- the number of the max cached processes in the system. -->
-    <integer name="config_customizedMaxCachedProcesses">64</integer>
+    <integer name="config_customizedMaxCachedProcesses">1024</integer>
 
     <!-- The default value for transition animation scale found in developer settings.
         1.0 corresponds to 1x animator scale, 0 means that there will be no transition
