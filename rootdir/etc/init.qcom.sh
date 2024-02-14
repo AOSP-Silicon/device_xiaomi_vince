@@ -72,5 +72,5 @@ case "$buildvariant" in
 esac
 
 # Remove system app and resource cache, avoids derps after dirty flash
-rm -rf /data/resource-cache
-rm -rf /data/system/package_cache
+rm -rRf /data/resource-cache
+rm -rRf /data/system/package_cache
